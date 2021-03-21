@@ -40,7 +40,7 @@ if(mysqli_num_rows($rs)){
             ('$pd_id', '$pd_name', '$pd_price', '$num', '$t_price')";
             $rs2 = mysqli_query($conn, $query);
             if(!$rs2){
-                echo "Not Added";
+                echo "Not Added anything";
             }else{
 
                header("Location:index.php?msg=Added");
