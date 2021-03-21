@@ -433,4 +433,10 @@ a {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+@media (min-width: 1920px) {
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
 /*# sourceMappingURL=style.css.map */
